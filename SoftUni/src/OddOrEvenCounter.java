@@ -6,13 +6,11 @@ public class OddOrEvenCounter {
         int numOfSets = sc.nextInt();
         int setSize = sc.nextInt();
         String evenOrOdd = sc.next();
-
         int setCounter = 1;
         int numbers = 0;
         int buffer = Integer.MIN_VALUE;
         int set = 0;
         int oddOrEven = evenOrOdd.equals("odd") ? 1 : 0;
-
         for (int i = 1; i <= numOfSets; i++) {
             numbers = 0;
             for (int j = 0; j < setSize; j++) {

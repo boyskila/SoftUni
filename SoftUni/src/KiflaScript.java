@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class KiflaScript {
     public static void main(String[] args) {
@@ -16,7 +15,6 @@ public class KiflaScript {
         int stepsCount = 1;
         int stepPosition = 0;
         int stepChange = 0;
-
         for (int i = 0; i < n * n; i++) {
             matrix[positionY][positionX] = i;
             if (stepPosition < stepsCount) {

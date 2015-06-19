@@ -7,7 +7,6 @@ public class KingOfThieves {
         String n = sc.nextLine();
         String symbol = sc.nextLine();
         int size = Integer.valueOf(n);
-
         for (int i = 0; i < (size / 2) + 1; i++) {
             for (int j = 0; j < size; j++) {
                 System.out.print(j >= size / 2 - i && j <= size / 2 + i || i == (size / 2) + 1 ? symbol : "-");
@@ -20,5 +19,6 @@ public class KingOfThieves {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

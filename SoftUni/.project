@@ -14,21 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/Uslovie/01. Book Problem_Условие (PDF).pdf</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/01.%20Book%20Problem_%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5%20(PDF).pdf</locationURI>
-		</link>
-		<link>
-			<name>src/Uslovie/01. Book Problem_Условие.docx</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/01.%20Book%20Problem_%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5.docx</locationURI>
-		</link>
-		<link>
-			<name>src/Uslovie/03. King of Thieves_Условие (PDF).pdf</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Downloads/03.%20King%20of%20Thieves_%D0%A3%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5%20(PDF).pdf</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>

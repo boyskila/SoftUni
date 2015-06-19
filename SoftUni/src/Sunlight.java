@@ -12,10 +12,8 @@ public class Sunlight {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        
         int rowLenght = n * 3;
         char c;
-        
         printFirstAndLastLine(n);
         System.out.println();
         for (int i = 1; i < n; i++) {
@@ -34,7 +32,7 @@ public class Sunlight {
             System.out.println();
         }
 
-        for (int i = 1; i < n ; i++) {
+        for (int i = 1; i < n; i++) {
             for (int k = 0; k < rowLenght; k++) {
                 c = k == n - 1 - i || k == rowLenght / 2 || k == rowLenght - n + i ? '*' : '.';
                 System.out.print(c);

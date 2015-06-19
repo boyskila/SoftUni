@@ -16,9 +16,7 @@ public class ProgrammerDNA {
 			if (c == Character.toUpperCase(letterIn)) {
 				break;
 			}
-
 		}
-
 		return counter;
 	}
 
